@@ -5,6 +5,7 @@ Small project for test frustum culling with sfml for graphics lib.
 
 ## Description
 The frustum culling is simply render only objects in the frustum view.
+
 ![alt tag](https://raw.githubusercontent.com/firepolo/FrustumCulling2D/master/frustum.png)
 
 ## How to do ?
@@ -22,7 +23,9 @@ struct Frustum
 }
 ```
 Here a scheme for explain the calcul from constant "Side".
+
 ![alt tag](https://raw.githubusercontent.com/firepolo/FrustumCulling2D/master/constants.png)
 
 For refresh here also a scheme for function "tan(x)"
+
 ![alt tag](https://raw.githubusercontent.com/firepolo/FrustumCulling2D/master/tan.png)
