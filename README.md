@@ -74,9 +74,10 @@ Scheme for show normals from ABC planes.
 Scheme for show the two way inner and outer.
 
 ![alt tag](https://raw.githubusercontent.com/firepolo/FrustumCulling2D/master/doc/collision.png)
+
 Note that arrow black are the normal from ABC planes.
 
-###Render
+### Render
 Here we render only the objects in frustum view but we have a big problem here.
 We execute a loop on entire map, look next step for optimization.
 
@@ -119,7 +120,7 @@ Scheme for show the optimization with "bounding box".
 
 ![alt tag](https://raw.githubusercontent.com/firepolo/FrustumCulling2D/master/doc/optimization.png)
 
-###Render after optimization
+### Render after optimization
 It's very better, we parse only a part from map affected by the frustum view.
 
 ```c++
